@@ -35,7 +35,7 @@ def email():
     """ Contact the creator. """
     exists = getenv('UserProfile') + '\\ApppData\\Local\\Microsoft\\Outlook\\*.ost'
     if exists:
-        open_new(r'virgilhoover@gmail.com')
+        open_new(r'johndoe@gmail.com')
     else:
         open_new('https://mail.office365.com/')
     return
